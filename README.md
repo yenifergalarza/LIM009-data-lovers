@@ -56,37 +56,18 @@ Una vez que definas tu área de interés, buscar entender quién es tu usuario
 y qué necesita saber o ver exactamente; luego podrás construir la interfaz que
 le ayude a interactuar y entender mejor esos datos.
 
-Estos son datos que te proponemos:
+Elegimos estos datos:
 
-* [Indicadores de desarrollo del Banco Mundial](src/data/worldbank/worldbank.json)
-  de algunos países (Brasil, Chile, México y Perú). Estos datos incluyen
-  indicadores demográficos, económicos y comerciales.
 * [Pokémon](src/data/pokemon/pokemon.json):
   En este set encontrarás una lista con los 151 Pokémon de la región de Kanto,
   junto con sus respectivas estadísticas usadas en el juego [Pokémon GO](pokemongolive.com).
-* [Steam noticias](src/data/steam/steam.json):
-  Lista noticias relacionadas a los videojuegos presentes en la
-  plataforma de [Steam](https://store.steampowered.com/).
-* [League of Legends - Challenger leaderboard](src/data/lol/lol.json):
-  Este set de datos muestra la lista de jugadores en una liga del
-  juego League of Legends (LoL), puedes revisar la documentación de su API en
-  este [link](https://developer.riotgames.com/api-methods/).
-* [Personas heridas por medio de transporte en EEUU](src/data/injuries/injuries.json).
-  Este set nos muestra el número de personas heridas en accidentes de
-  transporte, con data anual desde 1960 y categorizada por tipo de transporte
-  (aire, barco, automóvil, moto, bicicleta, ...).
 
 Cada set de datos tiene una identidad gráfica que deberás utilizar en la
 interfaz. La identidad gráfica, también conocida como guía de estilos en
 diseño, de cada set la podrás encontrar en el siguiente
 [link](https://drive.google.com/open?id=1eeWFqrWpy-OYOH4EHDckFGunyrm9iNeE).
 
-## Consideraciones generales
 
-* Este proyecto se debe resolver en duplas.
-* El proyecto será entregado subiendo tu código a GitHub (commit/push) y la
-  interfaz será desplegada usando [GitHub Pages](https://pages.github.com/).
-* Tiempo para completarlo: Toma como referencia 3 semanas.
 
 ## Objetivos de aprendizaje
 
@@ -126,10 +107,14 @@ el problema (o problemas) que tiene tu usuario.
 
 ### Historias de usuario
 
+[entrevista a un jugador de pokemon go](https://www.youtube.com/watch?time_continue=2&v=ST67UlvcNxw)
+
+
 Una vez que entiendas las necesidades de tus usuarios, escribe las [Historias
 de Usuario](https://es.wikipedia.org/wiki/Historias_de_usuario) que representen
 todo lo que el usuario necesita hacer/ver. Las **Historias de Usuario** deben
 ser el resultado de tu proceso de investigación o _research_ de tus usuarios.
+
 
 Asegúrate de incluir la definición de terminado (_definition of done_) y los
 Criterios de Aceptación para cada una.
@@ -139,7 +124,16 @@ a la siguiente (Cumple con Definición de Terminado + Criterios de Aceptación).
 
 ### Diseño de la Interfaz de Usuario
 
+![WhatsApp Image 2019-03-21 at 9 45 20 AM (2)](https://user-images.githubusercontent.com/39390011/54761868-f5229880-4bc0-11e9-9ef1-16f219f6d832.jpeg)
+
+![WhatsApp Image 2019-03-21 at 9 45 20 AM (2)](https://user-images.githubusercontent.com/39390011/54761868-f5229880-4bc0-11e9-9ef1-16f219f6d832.jpeg)
+![WhatsApp Image 2019-03-21 at 9 45 20 AM (1)](https://user-images.githubusercontent.com/39390011/54761870-f5229880-4bc0-11e9-9c69-b82a7165aff3.jpeg)
+![WhatsApp Image 2019-03-21 at 9 45 20 AM](https://user-images.githubusercontent.com/39390011/54761871-f5bb2f00-4bc0-11e9-996c-221a01bfe76f.jpeg)
+![WhatsApp Image 2019-03-21 at 9 45 21 AM (1)](https://user-images.githubusercontent.com/39390011/54761872-f5bb2f00-4bc0-11e9-9860-45dccdd361cc.jpeg)
+![WhatsApp Image 2019-03-21 at 9 45 21 AM](https://user-images.githubusercontent.com/39390011/54761873-f5bb2f00-4bc0-11e9-95a9-eb6dd3a9e3a8.jpeg)
 #### Prototipo de baja fidelidad
+
+![Tupokedex](https://user-images.githubusercontent.com/39390011/54762432-218ae480-4bc2-11e9-8876-c3a7941362f9.jpeg)
 
 Durante tu trabajo deberás haber hecho e iterado sketches (boceto) de tu
 solución usando papel y lápiz. Te recomendamos tomar fotos de todas las
@@ -147,6 +141,12 @@ iteraciones que hagas, las subas a tu repositorio, y las menciones en tu
 `README.md`.
 
 #### Prototipo de alta fidelidad
+
+![image](https://user-images.githubusercontent.com/39390011/54762090-6e21f000-4bc1-11e9-9fab-291a911a18b3.png)
+![image](https://user-images.githubusercontent.com/39390011/54762148-85f97400-4bc1-11e9-9e04-d87c5417b3d8.png)
+![image](https://user-images.githubusercontent.com/39390011/54762160-8abe2800-4bc1-11e9-8462-984e9377048e.png)
+![image](https://user-images.githubusercontent.com/39390011/54762173-94479000-4bc1-11e9-980f-2538fea5ed4c.png)
+
 
 Lo siguiente es diseñar tu Interfaz de Usuario (UI por sus siglas en inglés -
 _User Interface_). Para eso debes aprender a utilizar alguna herramienta de
