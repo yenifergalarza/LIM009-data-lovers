@@ -1,9 +1,18 @@
 /* Manejo de data */
 
-// esta es una función de ejemplo
-// puedes ver como agregamos la función a nuestro objeto global window
 
-/*
-  for (name of Object.values(POKEMON)) {
-  console.log(Object.values(name)); 
- */
+function sortArrsToObjects(a, b) {
+  a = a.id;
+  b = b.id;  
+
+if (a > b) {
+  return 1;
+} else if (a < b) {
+  return -1;
+} else if (a === b) {
+  return 0;
+}
+}
+ 
+window.sortArrsToObjects = sortArrsToObjects;
+/* Ordenado ascendente */
