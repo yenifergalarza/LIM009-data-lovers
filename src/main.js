@@ -39,6 +39,6 @@ const eachPoke = (pokemon) => {
 
   }
 }
-eachPoke(pokeData);
 
-console.log(pokeData.sort(sortArrsToObjects).reverse());
+filterOfPoke(eachPoke(pokeData));
+pokeData.sort(sortArrsToObjects).reverse();

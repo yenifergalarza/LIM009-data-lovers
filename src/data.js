@@ -16,3 +16,11 @@ if (a > b) {
  
 window.sortArrsToObjects = sortArrsToObjects;
 /* Ordenado ascendente */
+function filterOfPoke(arrayOfPoke){
+  for(let = 0;x<arrayOfPoke.length;x++){
+    if(arrayOfPoke[x].type[0]==="Fire"){
+console.log(arrayOfPoke[x]);
+    }
+  }
+}
+window.filterOfPoke = filterOfPoke;
