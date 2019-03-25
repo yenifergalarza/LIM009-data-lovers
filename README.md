@@ -122,6 +122,14 @@ Criterios de Aceptación para cada una.
 En la medida de lo posible, termina una historia de usuario antes de pasar
 a la siguiente (Cumple con Definición de Terminado + Criterios de Aceptación).
 
+Se realizó un formulario, en el cual apreciamos las necesidades del usuario, en este caso los jugadores de pokemonGO! al obtener la informacion estadisctica, empezamos con la elaboración del prototipo de baja fiabilidad y posterior a ello se realizo uno de alta fiabilidad.
+
+dentro de la historias de usuario: identificamos que para mejorar su estrategia de juego les seria util obtener la informacion sobre el tipo de pokemones y el numero de caramelos que necesitan los pokemon para evolucionar de forma rápida y eficaz, porque la aplicacion del juego demando del uso de mucha bateria.
+
+Roldolfo: Vive lejos de la universidad, es por ello que demora 2 horas en llegar por causa del tráfico, señala que siempre ha tenido agrado por la franquicia de Pokemón, descubrio el juego hace un par de años y desde entonces se ha vuelto un hobbie para él, sueña con completar la pokedex de la primera generación, pero el problema que presenta es el de la bateria.
+
+
+María: Esa una jugadora no tan hábitual, porque la aplicacion ocupa mucho espacio, es por ello que suele desargar y borrar la aplicacion constantemente, lo cual impide que finalice el juego.
 ### Diseño de la Interfaz de Usuario
 
 ![WhatsApp Image 2019-03-21 at 9 45 20 AM (2)](https://user-images.githubusercontent.com/39390011/54761868-f5229880-4bc0-11e9-9ef1-16f219f6d832.jpeg)
@@ -168,6 +176,8 @@ Durante el reto deberás realizar tests de usabilidad con distintos usuarios, y
 en base a los resultados de esos tests, deberás iterar tus diseños. Cuéntanos
 qué problemas de usabilidad detectaste a través de los tests y cómo los
 mejoraste en tu propuesta final.
+
+
 
 ### Implementación de la Interfaz de Usuario (HTML/CSS/JS)
 
