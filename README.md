@@ -139,9 +139,11 @@ María: Esa una jugadora no tan hábitual, porque la aplicacion ocupa mucho espa
 ![WhatsApp Image 2019-03-21 at 9 45 20 AM](https://user-images.githubusercontent.com/39390011/54761871-f5bb2f00-4bc0-11e9-996c-221a01bfe76f.jpeg)
 ![WhatsApp Image 2019-03-21 at 9 45 21 AM (1)](https://user-images.githubusercontent.com/39390011/54761872-f5bb2f00-4bc0-11e9-9860-45dccdd361cc.jpeg)
 ![WhatsApp Image 2019-03-21 at 9 45 21 AM](https://user-images.githubusercontent.com/39390011/54761873-f5bb2f00-4bc0-11e9-95a9-eb6dd3a9e3a8.jpeg)
+
 #### Prototipo de baja fidelidad
 
 ![Tupokedex](https://user-images.githubusercontent.com/39390011/54762432-218ae480-4bc2-11e9-8876-c3a7941362f9.jpeg)
+
 
 Durante tu trabajo deberás haber hecho e iterado sketches (boceto) de tu
 solución usando papel y lápiz. Te recomendamos tomar fotos de todas las
@@ -154,6 +156,8 @@ iteraciones que hagas, las subas a tu repositorio, y las menciones en tu
 ![image](https://user-images.githubusercontent.com/39390011/54762148-85f97400-4bc1-11e9-9e04-d87c5417b3d8.png)
 ![image](https://user-images.githubusercontent.com/39390011/54762160-8abe2800-4bc1-11e9-8462-984e9377048e.png)
 ![image](https://user-images.githubusercontent.com/39390011/54762173-94479000-4bc1-11e9-980f-2538fea5ed4c.png)
+
+![version preliminar 2](https://user-images.githubusercontent.com/47748876/54940223-494ab700-4ef8-11e9-85a9-cfbecdc33e1c.png)
 
 
 Lo siguiente es diseñar tu Interfaz de Usuario (UI por sus siglas en inglés -
