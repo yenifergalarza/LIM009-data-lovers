@@ -122,6 +122,14 @@ Criterios de Aceptación para cada una.
 En la medida de lo posible, termina una historia de usuario antes de pasar
 a la siguiente (Cumple con Definición de Terminado + Criterios de Aceptación).
 
+Se realizó un formulario, en el cual apreciamos las necesidades del usuario, en este caso los jugadores de pokemonGO! al obtener la informacion estadisctica, empezamos con la elaboración del prototipo de baja fiabilidad y posterior a ello se realizo uno de alta fiabilidad.
+
+dentro de la historias de usuario: identificamos que para mejorar su estrategia de juego les seria util obtener la informacion sobre el tipo de pokemones y el numero de caramelos que necesitan los pokemon para evolucionar de forma rápida y eficaz, porque la aplicacion del juego demando del uso de mucha bateria.
+
+Roldolfo: Vive lejos de la universidad, es por ello que demora 2 horas en llegar por causa del tráfico, señala que siempre ha tenido agrado por la franquicia de Pokemón, descubrio el juego hace un par de años y desde entonces se ha vuelto un hobbie para él, sueña con completar la pokedex de la primera generación, pero el problema que presenta es el de la bateria.
+
+
+María: Esa una jugadora no tan hábitual, porque la aplicacion ocupa mucho espacio, es por ello que suele desargar y borrar la aplicacion constantemente, lo cual impide que finalice el juego.
 ### Diseño de la Interfaz de Usuario
 
 ![WhatsApp Image 2019-03-21 at 9 45 20 AM (2)](https://user-images.githubusercontent.com/39390011/54761868-f5229880-4bc0-11e9-9ef1-16f219f6d832.jpeg)
@@ -131,9 +139,11 @@ a la siguiente (Cumple con Definición de Terminado + Criterios de Aceptación).
 ![WhatsApp Image 2019-03-21 at 9 45 20 AM](https://user-images.githubusercontent.com/39390011/54761871-f5bb2f00-4bc0-11e9-996c-221a01bfe76f.jpeg)
 ![WhatsApp Image 2019-03-21 at 9 45 21 AM (1)](https://user-images.githubusercontent.com/39390011/54761872-f5bb2f00-4bc0-11e9-9860-45dccdd361cc.jpeg)
 ![WhatsApp Image 2019-03-21 at 9 45 21 AM](https://user-images.githubusercontent.com/39390011/54761873-f5bb2f00-4bc0-11e9-95a9-eb6dd3a9e3a8.jpeg)
+
 #### Prototipo de baja fidelidad
 
 ![Tupokedex](https://user-images.githubusercontent.com/39390011/54762432-218ae480-4bc2-11e9-8876-c3a7941362f9.jpeg)
+
 
 Durante tu trabajo deberás haber hecho e iterado sketches (boceto) de tu
 solución usando papel y lápiz. Te recomendamos tomar fotos de todas las
@@ -146,6 +156,8 @@ iteraciones que hagas, las subas a tu repositorio, y las menciones en tu
 ![image](https://user-images.githubusercontent.com/39390011/54762148-85f97400-4bc1-11e9-9e04-d87c5417b3d8.png)
 ![image](https://user-images.githubusercontent.com/39390011/54762160-8abe2800-4bc1-11e9-8462-984e9377048e.png)
 ![image](https://user-images.githubusercontent.com/39390011/54762173-94479000-4bc1-11e9-980f-2538fea5ed4c.png)
+
+![version preliminar 2](https://user-images.githubusercontent.com/47748876/54940223-494ab700-4ef8-11e9-85a9-cfbecdc33e1c.png)
 
 
 Lo siguiente es diseñar tu Interfaz de Usuario (UI por sus siglas en inglés -
@@ -168,6 +180,8 @@ Durante el reto deberás realizar tests de usabilidad con distintos usuarios, y
 en base a los resultados de esos tests, deberás iterar tus diseños. Cuéntanos
 qué problemas de usabilidad detectaste a través de los tests y cómo los
 mejoraste en tu propuesta final.
+
+
 
 ### Implementación de la Interfaz de Usuario (HTML/CSS/JS)
 
