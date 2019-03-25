@@ -1,6 +1,5 @@
-/* Manejo del DOM */
 
-/* Manejo del DOM */
+
 
 /*const arrayPoke = Object.values(pokeData); codigo muerto :(*/
   const printPoke = document.getElementById("rootCard");
