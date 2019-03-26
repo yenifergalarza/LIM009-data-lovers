@@ -38,4 +38,14 @@ const eachPoke = (pokemon) => {
     </div> `
     }
   }
+
   eachPoke(pokeData);
+
+}
+
+
+console.log(pokeData.sort(sortArrsToObjects).reverse());
+
+filterOfPoke(eachPoke(pokeData));
+pokeData.sort(sortArrsToObjects).reverse();
+
