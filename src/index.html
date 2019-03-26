@@ -4,10 +4,11 @@
 <head>
   <meta charset="utf-8">
   <title>Data Lovers</title>
+  
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
   <link rel="stylesheet" href="style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
@@ -19,15 +20,23 @@
         <li><a href="#">Busca</a></li>
         <li><a href="#">nosotros1</a></li>
         <li><a href="#">Tipos </a></li>
-        <select name="tiposDePokemon"></select>
-        <option value="1">fire</option> 
-        <option value="2">water</option> 
-        <option value="3">grass</option>
-        <option value="4">Flying</option> 
-        <option value="5">posion</option> 
-        <option value="6">electric</option> 
-x        <li><a href="#"> nosotros2 </a></li>
-        <li><a href="#">N°de evolución</a></li>
+        <li>
+          <a href="#"> N° de PokeDex</a>
+       
+         <input type="radio" name="direction" id="up" value="up"   ><label for="up">Ascendente</label> <br>
+         <input type="radio" name="direction" id="down"  value="down"><label for="down">Descendente</label> <br>
+          
+        
+        </li>
+
+        <li><a href="#"> nosotros2 </a></li>
+        <li><a href="#">N°de evolución</a>
+          <ul>
+            <li> <a href="#" id="oneEvolution" >1 </a></li>
+            <li><a href="#"  id="twoEvolution" >2 </a> </li>
+
+          </ul>
+        </li>
       </ul>
     </nav>
     <header>
@@ -42,7 +51,7 @@ x        <li><a href="#"> nosotros2 </a></li>
 
 
     <div>
-      <div id="rootCard" class="row"> </div>
+      <div id="rootCard" class="row container-fluid""> </div>
     </div>
   </div>
   <footer>

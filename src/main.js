@@ -12,9 +12,9 @@ const eachPoke = (pokemon) => {
     <img src="${pokemon[pokeOne].img}" class="card-img-top" > 
     <div class="card-body card-header">
     <p class="card-title">${pokemon[pokeOne].name}</p>
-    </div>
+    </div>  
     <ul class="list-group list-group-flush">
-    <li class="list-group-item" > N° de Pokemon : ${pokemon[pokeOne].num}</li>
+    <li class="list-group-item" > N° de PokeDex : ${pokemon[pokeOne].num}</li>
     <li class="list-group-item" > Tipo : ${pokemon[pokeOne].type}</li>
     <li class="list-group-item"  > Debilidades : ${pokemon[pokeOne].weaknesses}</li>
     <li class="list-group-item" > Apariciones : ${pokemon[pokeOne].spawn_chance}</li>
@@ -29,7 +29,7 @@ const eachPoke = (pokemon) => {
     <p class="card-title">${pokemon[pokeOne].name}</p>
     </div>
     <ul class="list-group list-group-flush">
-    <li class="list-group-item" > N° de Pokemon : ${pokemon[pokeOne].num}</li>
+    <li class="list-group-item" > N° de PokeDex : ${pokemon[pokeOne].num}</li>
     <li class="list-group-item" > Tipo : ${pokemon[pokeOne].type}</li>
     <li class="list-group-item"  > Debilidades : ${pokemon[pokeOne].weaknesses}</li>
     <li class="list-group-item" > Apariciones : ${pokemon[pokeOne].spawn_chance}</li>
@@ -39,13 +39,34 @@ const eachPoke = (pokemon) => {
     }
   }
 
-  eachPoke(pokeData);
+
 
 }
 
 
 console.log(pokeData.sort(sortArrsToObjects).reverse());
 
-filterOfPoke(eachPoke(pokeData));
-pokeData.sort(sortArrsToObjects).reverse();
+filterOfPoke(pokeData);
 
+
+  //eachPoke(arrayPokesFilter);
+
+  document.getElementById('down').addEventListener('click',downPoke);
+function downPoke(){
+  printPoke.innerHTML = ``;
+  eachPoke(pokeData.sort(sortArrsToObjects).reverse());
+}
+
+document.getElementById('up').addEventListener('click',upPoke);
+function upPoke(){
+  printPoke.innerHTML = ``;
+  eachPoke(pokeData.sort(sortArrsToObjects));
+}
+
+
+// document.getElementById('twoEvolution').addEventListener('click',twoEvoClick);
+// function twoEvoClick(){
+// numberEvolution = 2
+//   printPoke.innerHTML = ``;
+//   eachPoke(filterOfEvo(pokeData));
+// }

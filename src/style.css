@@ -89,9 +89,9 @@ font-size: 25px;
 text-align: center;
 padding-top: .5em;
 }
-.row{
+/* .row{
   width: 90% !important;
-}
+} */
 .card-body {
    flex: none !important; 
    padding: 0 !important; 
