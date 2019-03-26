@@ -38,11 +38,4 @@ const eachPoke = (pokemon) => {
     </div> `
     }
   }
-<<<<<<< HEAD
   eachPoke(pokeData);
-=======
-}
-eachPoke(pokeData);
-
-console.log(pokeData.sort(sortArrsToObjects).reverse());
->>>>>>> f9341a93b10b1f00f0870ba9ad4cbd7c3eebaff7
