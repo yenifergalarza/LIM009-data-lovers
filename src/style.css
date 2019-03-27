@@ -118,14 +118,16 @@ padding-top: .5em;
   border-left: 3px solid #24CCAA inset;
   margin-bottom: 5px;
   padding-left: 1.5em;
-  --webkit-transition: all .5s;
-  -o-transition: all .5s;
-  transition: all .5s;
+  --webkit-transition: width 2s;
+  -o-transition: width 2s;
+  transition: width 2s;
 }
 
 .menu li:hover {
   box-shadow: 15em 0 #24CCAA inset;
 }
+
+
 
 nav.mostrar {
   left: 0;

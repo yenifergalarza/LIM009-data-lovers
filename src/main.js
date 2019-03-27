@@ -18,18 +18,38 @@ const printPoke = document.getElementById("root");
     <p> Caramelos : ${pokemon[pokeOne].candy_count}</p>
      `
   }
-  else{
-    printPoke.innerHTML +=`
-    <figure>
-    <img src="${pokemon[pokeOne].img}">
-    </figure>                
-    <p> Nombre : ${pokemon[pokeOne].name}</p>
-    <p> N° de Pokemon : ${pokemon[pokeOne].num}</p>
-    <p> Tipo : ${pokemon[pokeOne].type}</p>
-    <p> Debilidades : ${pokemon[pokeOne].weaknesses}</p>
-    <p> Apariciones : ${pokemon[pokeOne].spawn_chance}</p>
-    <p> Caramelos : no necesita mas ${pokemon[pokeOne].candy}</p>
-     `}
 
- }}
-eachPoke(pokeData);
+
+
+}
+
+
+console.log(pokeData.sort(sortArrsToObjects).reverse());
+
+
+  //eachPoke(arrayPokesFilter);
+
+  document.getElementById('down').addEventListener('click',downPoke);
+function downPoke(){
+  printPoke.innerHTML = ``;
+  eachPoke(pokeData.sort(sortArrsToObjects).reverse());
+};
+
+document.getElementById('up').addEventListener('click',upPoke);
+function upPoke(){
+  printPoke.innerHTML = ``;
+  eachPoke(pokeData.sort(sortArrsToObjects));
+};
+
+
+
+filterOfPoke(pokeData);
+
+
+
+// document.getElementById('twoEvolution').addEventListener('click',twoEvoClick);
+// function twoEvoClick(){
+// numberEvolution = 2
+//   printPoke.innerHTML = ``;
+//   eachPoke(filterOfEvo(pokeData));
+// }
