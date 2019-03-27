@@ -46,8 +46,6 @@ const eachPoke = (pokemon) => {
 
 console.log(pokeData.sort(sortArrsToObjects).reverse());
 
-filterOfPoke(pokeData);
-
 
   //eachPoke(arrayPokesFilter);
 
@@ -55,13 +53,18 @@ filterOfPoke(pokeData);
 function downPoke(){
   printPoke.innerHTML = ``;
   eachPoke(pokeData.sort(sortArrsToObjects).reverse());
-}
+};
 
 document.getElementById('up').addEventListener('click',upPoke);
 function upPoke(){
   printPoke.innerHTML = ``;
   eachPoke(pokeData.sort(sortArrsToObjects));
-}
+};
+
+
+
+filterOfPoke(pokeData);
+
 
 
 // document.getElementById('twoEvolution').addEventListener('click',twoEvoClick);
