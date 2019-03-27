@@ -33,16 +33,16 @@ arrayPokesFilter.push(arrayOfPoke[x]);
 
 window.filterOfPoke = filterOfPoke;
 
-// let numberEvolution = 0 ;
+ let numberEvolution = 0 ;
 
-// function filterOfEvo(arrayOfPoke){
-//   for(let x = 0; x < arrayOfPoke.length;x++){
-//     if(arrayOfPoke[x].next_evolution=== numberEvolution ){
-// console.log(arrayOfPoke[x]);
+function filterOfEvo(arrayOfPoke){
+for(let x = 0; x < arrayOfPoke.length;x++){
+ if(arrayOfPoke[x].next_evolution=== numberEvolution ){
+ console.log(arrayOfPoke[x]);
 
-// arrayPokesFilter.push(arrayOfPoke[x]);
-//     }
-//   }
-// };
+/arrayPokesFilter.push(arrayOfPoke[x]);
+ }
+ }
+ };
 
-// window.filterOfEvo = filterOfEvo;
+window.filterOfEvo = filterOfEvo;
