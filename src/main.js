@@ -7,7 +7,7 @@
       let pokemonValue=[];
       if (POKEMON.pokemon[pokeOne].hasOwnProperty('candy_count')) {
         //console.log(.pokemon[pokeOne].name);
-        pokemonValue =`
+        printPoke.innerHTML +=`
         <div class="card">
       <img src="${pokemon[pokeOne].img}" class="card-img-top" > 
       <div class="card-body card-header">
@@ -22,7 +22,7 @@
       </ul>
       </div> `
       } else {
-        pokemonValue= `
+        printPoke.innerHTML +=`
         <div class="card" ">
       <img src="${pokemon[pokeOne].img}" class="card-img-top" > 
       <div class="card-body card-header">
@@ -37,8 +37,6 @@
       </ul>
       </div> `
       }
-
-      printPoke.innerHTML+= pokemonValue;
     }
   }
 
