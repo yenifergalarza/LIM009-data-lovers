@@ -51,10 +51,11 @@ const filtrarPokemon = (data, tipo) => {
     arrayFiltrar = data.filter((contenido) => {
             for (let i = 0; i < contenido.type.length; i++) {
                 if (contenido.type[i] === tipo) {
-                    return 1;
-                }
-            }
+                    return 1;} 
+                  }
         });
     return arrayFiltrar;
   }
+  
+  
 window.filtrarPokemon = filtrarPokemon;

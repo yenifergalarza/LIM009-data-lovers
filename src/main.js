@@ -63,7 +63,10 @@
 pokemonFiltrado.addEventListener("change", () => {
     const filtrando = filtrarPokemon(pokeData, pokemonFiltrado.value);
     printPoke.innerHTML = ``;
-    eachPoke(filtrando);
+    
+console.log( (pokeData.length/100)*(filtrando.length));
+eachPoke(filtrando);
 });
 
 
+ 
