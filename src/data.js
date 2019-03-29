@@ -19,17 +19,28 @@ window.sortArrsToObjects = sortArrsToObjects;
 /* Ordenado ascendente */
 
 
+const  filterOfPoke = (data, tipo) => {
+    let arrayFiltrar = [];
+    arrayFiltrar = data
+        .filter((contenido) => {
+            for (let i = 0; i < contenido.type.length; i++) {
+                if (contenido.type[i] === tipo) {
+                    return 1;
+
+                }
+            }
+        });
+    return arrayFiltrar;
+}
 
 
-function filterOfPoke(arrayOfPoke){
-  for(let x = 0;x<arrayOfPoke.length;x++){
-    if(arrayOfPoke[x].type[0]==="Water"){
-console.log(arrayOfPoke[x]);
-
-arrayPokesFilter.push(arrayOfPoke[x]);
-    }
-  }
-};
+// function filterOfPoke(arrayOfPoke,tipo){
+//   for(let x = 0;x<arrayOfPoke.length;x++){
+//     if(arrayOfPoke[x].type[0]===tipo){
+// arrayPokesFilter.push(arrayOfPoke[x]);
+//     }
+//   }
+// }
 
 window.filterOfPoke = filterOfPoke;
 

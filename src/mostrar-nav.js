@@ -8,4 +8,4 @@ document.getElementById('mostrar-nav').addEventListener('click',mostrarMenu);
 
     function mostrarMenu() {
         var nav = document.getElementById('menuPrincipal');
-        nav.classList.toggle('mostrar')};
+        nav.classList.toggle('mostrar')}

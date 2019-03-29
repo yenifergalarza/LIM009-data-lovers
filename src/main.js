@@ -53,17 +53,24 @@ console.log(pokeData.sort(sortArrsToObjects).reverse());
 function downPoke(){
   printPoke.innerHTML = ``;
   eachPoke(pokeData.sort(sortArrsToObjects).reverse());
-};
+}
 
 document.getElementById('up').addEventListener('click',upPoke);
 function upPoke(){
   printPoke.innerHTML = ``;
   eachPoke(pokeData.sort(sortArrsToObjects));
-};
+}
 
 
 
-filterOfPoke(pokeData);
+const pokemonesFiltrados = document.getElementById("tipo-pokemon");
+pokemonesFiltrados.addEventListener("change", () => {
+    const filtrando = pokemon.filtrarPokemones(dataPokemon, pokemonesFiltrados.value);
+    listaDePokemones(filtrando);
+});
+
+
+filterOfPoke(pokeData,pokemonesFiltrados);
 
 
 
