@@ -130,6 +130,9 @@ Roldolfo: Vive lejos de la universidad, es por ello que demora 2 horas en llegar
 
 
 María: Esa una jugadora no tan hábitual, porque la aplicacion ocupa mucho espacio, es por ello que suele desargar y borrar la aplicacion constantemente, lo cual impide que finalice el juego.
+
+
+
 ### Diseño de la Interfaz de Usuario
 
 ![WhatsApp Image 2019-03-21 at 9 45 20 AM (2)](https://user-images.githubusercontent.com/39390011/54761868-f5229880-4bc0-11e9-9ef1-16f219f6d832.jpeg)
