@@ -4,7 +4,6 @@
   const pokeData = POKEMON.pokemon;
   const eachPoke = (pokemon) => {
     for (let pokeOne = 0; pokeOne < POKEMON.pokemon.length; pokeOne++) {
-      let pokemonValue=[];
       if (POKEMON.pokemon[pokeOne].hasOwnProperty('candy_count')) {
         //console.log(.pokemon[pokeOne].name);
         printPoke.innerHTML +=`
