@@ -59,14 +59,29 @@
   //   eachPoke(filterOfEvo(pokeData));
   // }
 
+
+
+
+
   const pokemonFiltrado = document.getElementById("tipoDePokemon");
 pokemonFiltrado.addEventListener("change", () => {
     const filtrando = filtrarPokemon(pokeData, pokemonFiltrado.value);
     printPoke.innerHTML = ``;
     
-console.log( (pokeData.length/100)*(filtrando.length));
+let pokeStat = (pokeData.length/100)*(filtrando.length);
+console.log(pokeStat);
+const pokeBar = document.getElementById("pokeBar");
+const titlePoke = document.getElementById("titlePoke");
+pokeBar.innerHTML = ``;
+titlePoke.innerHTML = ``;
+titlePoke.innerHTML =`Porcentaje de pokemones de tipo ${ pokemonFiltrado.value} : ${pokeStat}%`; 
+pokeBar.innerHTML +=` 
+<div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: ${pokeStat}%" aria-valuenow="${pokeStat}" aria-valuemin="0" aria-valuemax="100"></div>`;
 eachPoke(filtrando);
 });
 
 
- 
+
+
+
+

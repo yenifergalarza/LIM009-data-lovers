@@ -144,3 +144,14 @@ nav.mostrar {
   background: url(./images/menu.png);
   z-index: 30;
 }
+
+.bg-info {
+  background-color: #3fcfa7!important;
+}
+
+.containerBar{
+  padding: 10% ;
+padding-top: 5%;
+padding-bottom: 5%;
+border-bottom: solid rgba(0, 0, 0, .1);
+}
