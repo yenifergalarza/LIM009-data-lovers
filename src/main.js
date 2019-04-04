@@ -2,9 +2,10 @@
 /*const arrayPoke = Object.values(pokeData); codigo muerto :(*/
   const printPoke = document.getElementById("rootCard");
   const pokeData = POKEMON.pokemon;
+
   const eachPoke = (pokemon) => {
-    for (let pokeOne = 0; pokeOne < POKEMON.pokemon.length; pokeOne++) {
-      let pokemonValue=[];
+    for (let pokeOne = 0; pokeOne < x.pokemon.length; pokeOne++) {
+      //let pokemonValue=[];//
       if (POKEMON.pokemon[pokeOne].hasOwnProperty('candy_count')) {
         //console.log(.pokemon[pokeOne].name);
         printPoke.innerHTML +=`
@@ -18,6 +19,7 @@
       <li class="list-group-item" > Tipo : ${pokemon[pokeOne].type}</li>
       <li class="list-group-item"  > Debilidades : ${pokemon[pokeOne].weaknesses}</li>
       <li class="list-group-item" > Apariciones : ${pokemon[pokeOne].spawn_chance}</li>
+      <li class="list-group-item" > Peso : ${pokemon[pokeOne].weight}</li>
       <li class="list-group-item" > Caramelos : ${pokemon[pokeOne].candy_count}  ${pokemon[pokeOne].candy}</li>
       </ul>
       </div> `
@@ -33,6 +35,7 @@
       <li class="list-group-item" > Tipo : ${pokemon[pokeOne].type}</li>
       <li class="list-group-item"  > Debilidades : ${pokemon[pokeOne].weaknesses}</li>
       <li class="list-group-item" > Apariciones : ${pokemon[pokeOne].spawn_chance}</li>
+      <li class="list-group-item" > Peso : ${pokemon[pokeOne].weight}</li>
       <li class="list-group-item" > Caramelos : no necesita mas ${pokemon[pokeOne].candy} </li>
       </ul>
       </div> `
@@ -42,16 +45,17 @@
 
   //console.log(pokeData.sort(sortArrsToObjects).reverse());
     //eachPoke(arrayPokesFilter);
+
     document.getElementById('down').addEventListener('click',downPoke);
   function downPoke(){
     printPoke.innerHTML = ``;
-    eachPoke(pokeData.sort(sortArrsToObjects).reverse());
-  };
+    eachPoke(pokeData.sort(x.pokemon.type).reverse());
+   };
   document.getElementById('up').addEventListener('click',upPoke);
   function upPoke(){
     printPoke.innerHTML = ``;
-    eachPoke(pokeData.sort(sortArrsToObjects));
-  };
+    eachPoke(pokeData.sort(x.pokemon.type));
+   };
   //filterOfPoke(pokeData);
   // document.getElementById('twoEvolution').addEventListener('click',twoEvoClick);
   // function twoEvoClick(){
@@ -59,12 +63,18 @@
   //   printPoke.innerHTML = ``;
   //   eachPoke(filterOfEvo(pokeData));
   // }
-
+    
   const pokemonFiltrado = document.getElementById("tipoDePokemon");
 pokemonFiltrado.addEventListener("change", () => {
     const filtrando = filtrarPokemon(pokeData, pokemonFiltrado.value);
     printPoke.innerHTML = ``;
     eachPoke(filtrando);
 });
+
+  //const pokeEstadistico = document.getElementById("Porcentaje")
+  
+
+
+
 
 

@@ -1,5 +1,4 @@
 /* Manejo de data */
-let arrayPokesFilter = [];
 
 function sortArrsToObjects(a, b) {
   a = a.id;
