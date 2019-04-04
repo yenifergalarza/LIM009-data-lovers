@@ -71,7 +71,7 @@ pokemonFiltrado.addEventListener("change", () => {
     eachPoke(filtrando);
 });
 
-  //const pokeEstadistico = document.getElementById("Porcentaje")
+  const pokeEstadistico = document.getElementById("Porcentaje")
   
 
 
