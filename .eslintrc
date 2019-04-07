@@ -9,6 +9,8 @@
   "globals": {
     "POKEMON":false,
     "filtrarPokemon":false,
-    "sortArrsToObjects":false
+    "sortArrsToObjects":false,
+    "calculusStats":false,
+    "pokeData":false
   }
 }

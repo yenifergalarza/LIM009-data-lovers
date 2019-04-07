@@ -31,3 +31,9 @@ const filtrarPokemon = (data, tipo) => {
   
 window.filtrarPokemon = filtrarPokemon;
 
+
+const  calculusStats = (dataRestante, pokesTipo) => {
+  return (dataRestante.length / 100) * (pokesTipo.length);
+ 
+}
+window.calculusStats = calculusStats;

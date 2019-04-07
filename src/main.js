@@ -65,8 +65,7 @@
    const filtrando =filtrarPokemon(pokeData, pokemonFiltrado.value);
    printPoke.innerHTML = ``;
 
-   let pokeStat = (pokeData.length / 100) * (filtrando.length);
-  
+   let pokeStat =  calculusStats (pokeData,filtrando);
    const pokeBar = document.getElementById("pokeBar");
    const titlePoke = document.getElementById("titlePoke");
    pokeBar.innerHTML = ``;

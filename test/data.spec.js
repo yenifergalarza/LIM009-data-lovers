@@ -20,7 +20,7 @@ describe('sortArrsToObjects', () => {
 
 
   it('debería retornar 0 por que los 2 parametros son iguales', () => {
-   expect(sortArrsToObjects({id:8},{id:8}))
+   expect(sortArrsToObjects({id:8},{id:8})).toBe(0)
   });
 });
 describe('filtrarPokemon', () => {
@@ -28,8 +28,16 @@ describe('filtrarPokemon', () => {
     expect(typeof filtrarPokemon).toBe('function')
   });
 
-  it('deberia retornar pokes filtrados', () => {
-    expect(filtrarPokemon([{type:"fuego"},{type:"agua"}],"fuego")).toEqual([])
+  test('deberia retornar pokes filtrados', () => {
+    expect(filtrarPokemon([{type:"fire"},{type:"ghost"},{id:1,type:"Fire"}],"Fire")).toEqual([])
+  });
+
+
+});
+
+describe('filtrarPokemon', () => {
+  it('deberia retornar % pokes de un tipo del total', () => {
+    expect(calculusStats([{type:"fuego"},{type:"fuego"},{type:"agua"}],[{type:"agua"}])).toBe(0.03)
   });
 
 
