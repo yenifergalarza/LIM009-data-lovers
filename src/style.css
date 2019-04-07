@@ -155,3 +155,10 @@ padding-top: 5%;
 padding-bottom: 5%;
 border-bottom: solid rgba(0, 0, 0, .1);
 }
+
+.greyAndCenter,h3{
+  font-weight: 600;
+  color:#24CCAA;
+  text-align: center;
+text-decoration: none;
+}

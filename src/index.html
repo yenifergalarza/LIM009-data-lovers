@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 
 <head>
   <meta charset="utf-8">
   <title>Data Lovers</title>
-  
+
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css" />
@@ -15,7 +15,12 @@
 
   <div id="root">
     <div id="mostrar-nav"></div>
+    <header>
+      <h1>Tu PokeDex</h1>
+      <img class="pokeballMini" src="./images/pokeball.png" alt="">
+    </header>
     <nav id="menuPrincipal">
+
       <ul class="menu">
         <li><a href="#">Busca</a></li>
         <li><a href="#">nosotros1</a></li>
@@ -37,65 +42,60 @@
             <option value="Ground">Tierra</option>
             <option value="Poison">Veneno</option>
             <option value="Flying">Volador</option>
-        </select></li>
+          </select></li>
         <li>
-          
+
           <a href="#"> N° de PokeDex</a>
-       
-         <input type="radio" name="direction" id="up" value="up"   ><label for="up">Ascendente</label> <br>
-         <input type="radio" name="direction" id="down"  value="down"><label for="down">Descendente</label> <br>
-          
-        
+
+          <input type="radio" name="direction" id="up" value="up"><label for="up">Ascendente</label> <br>
+          <input type="radio" name="direction" id="down" value="down"><label for="down">Descendente</label> <br>
+
+
         </li>
 
         <li><a href="#"> nosotros2 </a></li>
         <li><a href="#">N°de evolución</a>
-         <input type="radio" name="direction" id="oneEvolution"  value="oneEvolution"   ><label for="oneEvolution">1</label> <br>
-         <input type="radio" name="direction" id="twoEvolution"   value="twoEvolution"><label for="twoEvolution">2</label> <br>
-         <input type="radio" name="direction" id="threeEvolution"   value="twoEvolution"><label for="threeEvolution">2</label> <br>
-           
-        
+          <input type="radio" name="direction" id="oneEvolution" value="oneEvolution"><label
+            for="oneEvolution">1</label> <br>
+          <input type="radio" name="direction" id="twoEvolution" value="twoEvolution"><label
+            for="twoEvolution">2</label> <br>
+          <input type="radio" name="direction" id="threeEvolution" value="twoEvolution"><label
+            for="threeEvolution">2</label> <br>
+
+
         </li>
       </ul>
     </nav>
-    <header>
 
-      <h1>Tu PokeDex</h1>
-      <img class="pokeballMini" src="./images/pokeball.png" alt="" >
-    </header>
     <article>
-      <p>
-      </p>
+      <div class="containerBar">
+        <h2 id="titlePoke">Encuentra todos tus pokemones por tipo o N° de pokedex aquí</h2>
+        <div id="pokeBar" class="progress"> </div>
+      </div>
     </article>
 
+    <div id="rootCard" class="row container-fluid"> </div>
 
-    <div >
-       <div class="containerBar">
-        <h2 id="titlePoke"></h2>
-        <div id="pokeBar" class="progress">
-          
-</div>
-        </div>
-      <div id="rootCard" class="row container-fluid"> </div>
-    </div>
-  </div>
-  <footer>
-    <a href="http://twitter" target="_blank"></a>
-  </footer>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-  </script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
-  </script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
-  </script>
-  <script src="./data/pokemon/pokemon.js"></script>
-  <script src="mostrar-nav.js"></script>
-  <script src="data.js"></script>
-  <script src="main.js"></script>
+    <footer>
+      <h3>Copyright © Todos los Derechos Reservados a
+        <a href="https://github.com/Mirella1321?tab=repositories" class="greyAndCenter" target="_blank">Mirella</a> , <a
+          href="https://github.com/yenifergalarza" target="_blank" class="greyAndCenter">Yenifer </a> y <a
+          href="https://www.pokemongo.com/es-es/" class="greyAndCenter" target="_blank">Pokemon</a></h3>
+    </footer></div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+    <script src="./data/pokemon/pokemon.js"></script>
+    <script src="mostrar-nav.js"></script>
+    <script src="data.js"></script>
+    <script src="main.js"></script>
 </body>
 
 </html>
