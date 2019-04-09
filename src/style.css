@@ -6,6 +6,8 @@ body {
  
 
 }
+
+
 /* posicion responsive menu*/
 nav {
   background: #F1FFEF;
@@ -217,7 +219,7 @@ h1{font-size: 41px;}
 .card {
 
   margin-left: 3%;
-  width: 170px;
+  width: 170px;}
 }
 
 
@@ -269,3 +271,6 @@ h2 {
 .row {
   padding-left: 5%;}
 }
+
+
+

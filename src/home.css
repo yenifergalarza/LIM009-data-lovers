@@ -35,21 +35,34 @@ h1{
         background-size: 0;
         -webkit-background-size: auto;
         -o-background-size: 0;
-        
     text-transform: uppercase;
       
     }
-.background1{
-    background-image: url(../src/images/pokemon_detective_pikachu_movie_bulbasaur_morelull_and_justice_smith_holding_pikachu.png);
-    object-fit: cover;
-    /* object-position: 10px; */
-    /* object-position: 100% 150%; */
-    /* left: 9px; */
-    background-position: 49% 10%;
-    background-repeat: no-repeat;
-    padding-right: 5%;
-    /* background: linear-gradient(to bottom,#04dabe 0,rgba(155,255,123,.43) 55%,rgba(155,255,123,0) 100%); */
-}    
+ 
+
+    .background1 {
+     
+        object-fit: cover;
+        background-position: 49% 10%;
+        background-repeat: no-repeat;
+        padding-right: 5%;
+        background-size: cover;
+        animation-name: backgroundChange;
+        animation-duration: 40s;
+        animation-iteration-count: infinite;
+        transition-duration: 0.7s;
+        animation-timing-function: linear;
+        
+    }
+
+
+    @keyframes backgroundChange{
+        0%    {  background-image: linear-gradient(to bottom,#04dabe ,#9bff7b6e,#3ac3f300 ,#3ac3f300 ,#9bff7b6e,#04dabe7a 100%), url(../src/images/Jigglypuff-singing-in-Detective-Pikachu.jpg);}
+        25%  {    background-image: linear-gradient(to bottom,#04dabe ,#9bff7b6e,#3ac3f300 ,#3ac3f300 ,#9bff7b6e,#04dabe7a 100%), url(../src/images/pokemon_detective_pikachu_movie_bulbasaur_morelull_and_justice_smith_holding_pikachu.png);}
+        50%  {    background-image: linear-gradient(to bottom,#04dabe ,#9bff7b6e,#3ac3f300 ,#3ac3f300 ,#9bff7b6e,#04dabe7a 100%), url(../src/images/pokemon-go-1.jpg);}
+        75%  {    background-image: linear-gradient(to bottom,#04dabe ,#9bff7b6e,#3ac3f300 ,#3ac3f300 ,#9bff7b6e,#04dabe7a 100%), url(../src/images/Capturar-a-Pikachu-en-Pokémon-Go-.jpg);}
+        100% {   background-image: linear-gradient(to bottom,#04dabe ,#9bff7b6e,#3ac3f300 ,#3ac3f300 ,#9bff7b6e,#04dabe7a 100%), url(../src/images/detective-pikachu-ryan-reynolds.png);}
+    }
 .background2{
     background: linear-gradient(to bottom,#3ac3f3 ,#356aaf 100%);
     display: table;
@@ -86,8 +99,10 @@ h1{
     background: transparent center center no-repeat;
  
 }
-.phoneX{
-    height: 352px;
+.phoneX {
+    background-image: url(../src/images/Screen.jpg);
+    border-radius: 25px;
+    background-size: 100% 100%;
 }
 .phoneDisplay{
     padding-left: 22%;
@@ -167,7 +182,7 @@ h1{
     display: inline-block;
     overflow: hidden;
     background-repeat: no-repeat;
-    background-image: url(../src/images/pokemon.png);
+    background-image: url(../src/images/pokeballsinfondo.png);
     position: absolute;
     top: 3px;
     left: -25px;
@@ -366,7 +381,7 @@ h4 {
         background-position: .453515% -18.484536%;
         background-size: 101.127%;
         animation-timing-function: linear;
-        opacity: 0.2;
+        opacity: 0.1;
     }
 
     @keyframes slide-left-inverted{
@@ -671,3 +686,54 @@ h4 {
                                 
                                 }
 }
+
+
+@media (min-width: 1340px) {
+    .letsGoPoke {
+        height: 100%;
+        top: -483px;
+    }
+        .col-bg-right {
+            left: 37%;
+            top: 129px;}
+
+            .textSwitch {
+                font-size: 1.5em;}
+                .poke-ball-plus p {
+                    font-size: 25px;
+                    font-weight: 400;
+                }
+
+                .three-col {
+                    top: 603px;
+                    left: 24%;
+                }
+
+                .phoneDisplay {
+                    position: absolute;
+                    padding-left: 66%;
+                    /* padding-right: 0%; */
+                    top: 160px;
+                }
+
+                .disponibility {
+                    left: 67.85%;
+                    top: 475px;
+                }
+
+                h1 .gradient-text {
+                    left: 96px;
+                    top: -28px;
+                    position: relative;}
+
+                    .textMobile {
+                        font-size: 19px;
+                                        left: 168px;
+                    }
+
+                    h1 {
+                        padding-bottom: 458px;
+                    }
+}
+
+
