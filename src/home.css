@@ -102,8 +102,16 @@ h1{
 .phoneX {
     background-image: url(../src/images/Screen.jpg);
     border-radius: 25px;
+    height: 297px;
     background-size: 100% 100%;
 }
+
+.iconFooter{
+    padding: 5px;
+    height: 25px;
+    width: 25px;
+}
+
 .phoneDisplay{
     padding-left: 22%;
     padding-right: 20%;
@@ -162,6 +170,38 @@ h1{
     -ms-flex-align: center;
     align-items: center;
 }
+
+
+.play-icon-small {
+    width: 55px;
+    height: 46px;
+    background-position: 40.919% 27.4678%;
+    background-size: 109%;
+    
+    display: inline-block;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-image: url(../src/images/pokeButton.png);
+}
+
+
+.button-large .play-icon-large {
+    position: absolute;
+    top: -28px;
+    left: -24px;
+    height: 107px;
+    width: 98px;
+    background-position: 16.957% 44.9766%;
+
+}
+
+.button.button-small .play-icon-small {
+    position: absolute;
+    top: -13px;
+    right: -13px;
+    width: 71px;
+    height: 59px;
+}
  .news-summary-headline {
     display: inline-block;
     vertical-align: top;
@@ -182,7 +222,7 @@ h1{
     display: inline-block;
     overflow: hidden;
     background-repeat: no-repeat;
-    background-image: url(../src/images/pokeballsinfondo.png);
+    background-image: url(../src/images/pokeButton.png);
     position: absolute;
     top: 3px;
     left: -25px;
@@ -200,8 +240,10 @@ h1{
     transition: transform .2s ease-out;
     transition: transform .2s ease-out,-webkit-transform .2s ease-out;
     background-position: 21.957% 29.9766%;
-    background-size: 550.538%;
+    background-size: 100%;
 }
+
+
 
 .background3{
     background-image: url(../src/images/grass.jpg!d);
@@ -251,6 +293,7 @@ h4 {
     display: flex;
     -webkit-box-pack: start;
     justify-content: flex-start;
+    margin-top: 30px;
 }
 .button-wrapper {
     font-size: 1.175em;
@@ -519,7 +562,11 @@ h4 {
     }
 }
 
-
+.button-footer .play-icon-large{
+    top: -12px;
+    width: 92px;
+    left: -20px;
+}
 
 
 
@@ -554,7 +601,11 @@ h4 {
         }
       
        
-
+        .letsGoPoke {
+            height: 249px;
+            left: 57px;
+            position: relative;
+        }
 
 
 } 
@@ -609,6 +660,7 @@ h4 {
     .letsGoPoke {
         height: 100%;
         padding-left: 12%;
+        left: 0;
     }
     .button-text {
         font-size: 17px;
@@ -735,5 +787,7 @@ h4 {
                         padding-bottom: 458px;
                     }
 }
-
+.social-box-icons{
+    margin: 0 auto;
+}
 
