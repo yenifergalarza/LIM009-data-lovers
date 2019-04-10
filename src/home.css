@@ -6,11 +6,14 @@
         font-family: Lato,sans-serif;
 }
 
-
+.whiteText{
+          color: #fff;
+        text-decoration: none;
+}
 
 @media (min-width: 300px) {
     .disponibility{
-        color: #fff;
+  
         margin: 0 auto;
         font-size: 1.8em;
         text-align: center;
@@ -86,7 +89,7 @@ h1{
     display: inline-block;
     background-color: #299ec78c;
     border-radius: 6px;
-    color: #fff;
+
     padding: 10px 20px;
   
     margin: 39px 0px 21px 0;
@@ -276,7 +279,7 @@ h4 {
     padding: 0 30px 30px 0;
     border-bottom: 1px solid #fff;
     position: relative;
-    color: #fff;
+ 
 }
 .textSwitch{
     margin-top: 19.5px;
@@ -284,7 +287,7 @@ h4 {
     font-weight: 400;
     line-height: 1.4;
     padding: 0 20px 0 20px;
-    color: #fff;
+
 }
 .lets-go-buttons {
     padding: 0 20px;
@@ -321,7 +324,7 @@ h4 {
     border: 2px #fff solid;
     text-align: left;
     white-space: nowrap;
-    color: #fff;
+
     text-decoration: none;
     -webkit-transition: all .4s ease-out;
     -o-transition: all .4s ease-out;
@@ -374,7 +377,7 @@ h4 {
     line-height: 1.4;
 
     margin: 0;
-    color: #fff;
+  
 }
 .poke-ball-plus .poke-ball-plus-buttons {
     display: -webkit-box;
@@ -490,7 +493,7 @@ h4 {
         text-shadow: 1px 1px 1px rgba(0,0,0,.1);
         margin: 0 auto;
         padding: 10px;
-        color: #fff;
+
     }
 
     .footer .two-col {
@@ -526,12 +529,12 @@ h4 {
     }
     .footer .social-box .social-box-text {
         text-transform: uppercase;
-        color: #fff;
+   
         padding: 5px;
         margin: 0 auto;
     }
     .footer .circle-arrow-link {
-        color: #fff;
+
         text-transform: uppercase;
         text-decoration: none;
         font-size: 1.1em;
@@ -613,7 +616,7 @@ h4 {
             height: 303px;
         }
 .disponibility {
-            color: #fff;
+       
             left: 501px;
             font-size: 30px;
             position: absolute;

@@ -12,7 +12,7 @@
         <div class="card">
       <img src="${pokemon[pokeOne].img}" class="card-img-top" > 
       <div class="card-body card-header">
-      <p class="card-title">${pokemon[pokeOne].name}</p>
+      <p class="card-title whiteText" >${pokemon[pokeOne].name}</p>
       </div>  
       <ul class="list-group list-group-flush">
       <li class="list-group-item" > N° de PokeDex : ${pokemon[pokeOne].num}</li>
@@ -27,7 +27,7 @@
         <div class="card" ">
       <img src="${pokemon[pokeOne].img}" class="card-img-top" > 
       <div class="card-body card-header">
-      <p class="card-title">${pokemon[pokeOne].name}</p>
+      <p class="card-title whiteText">${pokemon[pokeOne].name}</p>
       </div>
       <ul class="list-group list-group-flush">
       <li class="list-group-item" > N° de PokeDex : ${pokemon[pokeOne].num}</li>
