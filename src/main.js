@@ -1,13 +1,11 @@
  /* Manejo del DOM */
- /*const arrayPoke = Object.values(pokeData); codigo muerto :(*/
  const printPoke = document.getElementById("rootCard");
 
  const pokeData = POKEMON.pokemon;
- 
+
  const eachPoke = (pokemon) => {
    for (let pokeOne = 0; pokeOne < pokemon.length; pokeOne++) {
      if (pokemon[pokeOne].hasOwnProperty('candy_count')) {
-       //console.log(.pokemon[pokeOne].name);
        printPoke.innerHTML += `
         <div class="card">
       <img src="${pokemon[pokeOne].img}" class="card-img-top" > 
@@ -43,7 +41,7 @@
    }
  }
 
- 
+
 
  document.getElementById('down').addEventListener('click', downPoke);
 
@@ -58,18 +56,12 @@
    eachPoke(pokeData.sort(sortArrsToObjects));
  }
 
-  const pokeEstadistico = document.getElementById("Porcentaje")
-  
-
-
-
-
-   const pokemonFiltrado = document.getElementById("tipoDePokemon");
-   pokemonFiltrado.addEventListener("change", () => {
-   const filtrando =filtrarPokemon(pokeData, pokemonFiltrado.value);
+ const pokemonFiltrado = document.getElementById("tipoDePokemon");
+ pokemonFiltrado.addEventListener("change", () => {
+   const filtrando = filtrarPokemon(pokeData, pokemonFiltrado.value);
    printPoke.innerHTML = ``;
 
-   let pokeStat =  calculusStats (pokeData,filtrando);
+   let pokeStat = calculusStats(pokeData, filtrando);
    const pokeBar = document.getElementById("pokeBar");
    const titlePoke = document.getElementById("titlePoke");
    pokeBar.innerHTML = ``;

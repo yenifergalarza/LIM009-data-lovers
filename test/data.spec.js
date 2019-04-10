@@ -15,7 +15,7 @@ describe('sortArrsToObjects', () => {
       id: 5
     }, {
       id: 8
-    })).toBe(-1)
+    })).toEqual(-1)
   });
 
   it('debería retornar 1 por que el primer parametro es mayor', () => {
@@ -23,16 +23,12 @@ describe('sortArrsToObjects', () => {
       id: 8
     }, {
       id: 1
-    })).toBe(1)
+    })).toEqual(1)
   });
 
 
   it('debería retornar 0 por que los 2 parametros son iguales', () => {
-    expect(sortArrsToObjects({
-      id: 8
-    }, {
-      id: 8
-    })).toBe(0)
+    expect(sortArrsToObjects({id:8}, {id: 8})).toEqual(0)
   });
 });
 describe('filtrarPokemon', () => {
@@ -41,7 +37,11 @@ describe('filtrarPokemon', () => {
   });
 
   test('deberia retornar pokes filtrados', () => {
-    expect(filtrarPokemon([{type: "fire"}, { type: "ghost" }, { id: 1,type: "Fire"}], "Fire")).toEqual([])
+    expect(filtrarPokemon([{type: "fire"}, { type: "ghost" }, { id: 1,type: "Fire"}], "Fire")).toEqual([{ id: 1,type: "Fire"}])
+  });
+  
+  test('deberia retornar pokes filtrados', () => {
+    expect(filtrarPokemon([{type: "fire"}, { type: ["ghost","Fire"]}, { id: 1,type: "Fire"}], "Fire")).toEqual([{ type: ["ghost","Fire"]}, { id: 1,type: "Fire"}])
   });
 
 
@@ -57,7 +57,7 @@ describe('filtrarPokemon', () => {
       type: "agua"
     }], [{
       type: "agua"
-    }])).toBe(0.03)
+    }])).toEqual(0.03)
   });
 
 
