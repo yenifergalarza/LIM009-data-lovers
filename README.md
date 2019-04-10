@@ -101,11 +101,95 @@ Los criterios para considerar que has completado este proyecto son:
 
 ### Definición del producto
 
-Documenta brevemente tu trabajo en el archivo `README.md` de tu repositorio,
-contándonos cómo fue tu proceso de diseño y cómo crees que el producto resuelve
-el problema (o problemas) que tiene tu usuario.
+Introducción
+Pokémon GO es un videojuego de realidad aumentada basado en la localización desarrollado por Niantic, Inc. Para dispositivos iOS y Android. Es un videojuego gratuito pero contiene microtransacciones.3 El juego consiste en buscar y capturar personajes de la saga Pokémon escondidos en ubicaciones del mundo real y luchar con ellos, lo que implica desplazarse físicamente por las calles de la ciudad para progresar. La aplicación comporta un elemento de interacción social, ya que promueve reuniones físicas de los usuarios en distintas ubicaciones de sus poblaciones. Durante el año 2016 fue donde tuvo un auge y a la vez una caída
+Rodríguez en el diario El País menciono que el juego ‘No fue capaz de fidelizar. Acabó aburriendo al usuario, literalmente. Llegó un momento en el que este agotó todo lo que se puede hacer en el juego’. El estudio realizado por este profesor de Ciencias de la Comunicación en la UJI se centró en la opinión de 332 jugadores. Los sujetos del estudio, de ambos sexos, contaban con una alta implicación en el mundo de Pokémon GO.
+Uno de los datos más interesantes del estudio hace referencia al perfil de usuario. El juego de realidad aumentada consiguió llegar a un grupo muy heterogéneo de personas, “una característica que suele ser rara frente a los videojuegos convencionales, que tienen un target mucho más marcado”, destaca Rodríguez.
+Sin embargo, y a pesar de ser un fenómeno que entusiasmó a las masas, fue la falta de interactividad lo que favoreció el declive del juego. Como señalan los investigadores de la UJI, los usuarios le pedían al juego cosas que nunca llegaron a recibir. “Intercambiar Pokémon con otros usuarios, competir… al final el juego se queda en el plano de lo individual, con pocas opciones de colaboración”.
+
+Objetivos
+Objetivo general
+•	Determinar las necesidades para completar los pokemons de la región de manera más rápida.
+Objetivos específicos:
+•	Reconocer la lista completa de los pokeomon de la región de América Latina
+•	Identificar todos los nombres de los Pokemon según número de pokedex
+•	Diseñar un interacción donde el usuario pueda realizar el cálculo estadístico sobre el porcentaje que tiene de acuerdo a la dimensión tipo de pokemon.
+User research
+Desarrollo del producto
+EL PROCESO DE DISEÑO
+DESCUBRIMIENTO E INVESTIGACIÓN (RESEARCH)
+Durante esta fase del proyecto, realizamos toda la investigación sobre el juego del pokemon GO, datos sobre la experiencia que si percibe en el juego, también encontramos que en esta región se pueden atrapar 151 pokemons, como dato importante sugerimos ir al callao y a el parque El Olivar debido a que hay mayor numero de apariciones.
+
 
 ### Historias de usuario
+¿Cuántos años tienes?
+Indícanos tu sexo
+¿Por qué juegas PokemonGo?
+¿Cuál es tu mayor dificultad?
+Si tuvieras información disponible sobre los pokemons ¿Como prefieres que este organizado?
+Como conclusión de las encuestas realizamos las siguientes historias de usuario
+
+Historias de usuario
+
+Yo como usuario deseo ver todos los pokemón en la web 
+
+-	Prototipo de baja fidelidad.
+-	Mostrar un pokemon en consola.
+-	Mostrar un pokémon que se imprima en la web.
+-	Mostrar todos los pokemon en la consola.
+-	Mostrar todos los pokemon en la Web.
+
+Yo como usuario deseo tener la opción de filtrar los pokemon por tipo
+
+-	Realizar el prototipo de alta fidelidad.
+-	Traer el valor de la propiedad tipo de un solo Pokemon
+-	Mostrar un tipo de pokemon en la web.
+-	obtener el valor del select 
+-	Crear la función filter 
+-	Visualizar el filtrado del pokémon en consola.
+-	Pintar el pokemon en la Web.
+-	identificar la propiedad tipo de pokemon
+-	Mostrar los tipos de pokémon en la web
+-	Obtener el valor del select con todos los tipos de pokemon.
+-	Probar la funcionalidad de todos los tipos de Pokemon
+
+Yo como usuario deseo ordenar los pokemon por N° de pokedex de forma ascendente.
+
+
+-	Traer el valor de la propiedad de número de Pokedex de un solo pokemon.
+-	Mostrar la opción de forma ascendente en la web
+-	crear la función sort.
+-	identificar la propiedad numero de pokedex 
+-	Mostrar los pokémon de forma ascendente según la propiedad numero de Pokedex
+-	Probar la funcionalidad de ordenar de forma ascendente  según numero de Pokedex 
+
+
+Yo como usuario deseo ordenar los pokemon por N° de pokedex de forma descendente
+
+-	Traer el valor de la propiedad de número de Pokedex de un solo pokemon.
+-	Mostrar la opción de forma descendente en la web
+-	crear la función sort.
+-	identificar la propiedad número de pokedex de todos los pokemon
+-	Mostrar los pokémon de forma descendente según la propiedad número de Pokedex
+-	Probar la funcionalidad de ordenar de forma descendente  según número de Pokedex 
+
+
+
+Yo como usuario deseo calcular el número de pokémon que me falta para completar la pokedex
+
+-	Realizar un conteo de la propiedad de cada objetivo.
+-	colocar un input en html
+-	visualizar el input donde podrá colocar el valor 
+-	Extraer el valor colocado por el usuario.
+-	Hacer el cálculo con un función de resta
+-	Mostrar en la web el resultado.
+
+
+
+•	Necesidades de los usuarios: ubicar de forma rápida el número de Pokémon según la Pokedex
+•	Objetivos de los usuarios: tener información que le permita atrapar mas pokemons en menos tiempo.
+•	Sentimientos: Por lo general están insatisfechos con el hecho de que se les agota la batería constantemente, por eso quieren más información.
+•	Obstáculos: no tener mucho tiempo para jugar el juego.
 
 [entrevista a un jugador de pokemon go](https://www.youtube.com/watch?time_continue=2&v=ST67UlvcNxw)
 
