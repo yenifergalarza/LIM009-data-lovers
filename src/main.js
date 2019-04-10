@@ -19,6 +19,7 @@
       <li class="list-group-item" > Tipo : ${pokemon[pokeOne].type}</li>
       <li class="list-group-item"  > Debilidades : ${pokemon[pokeOne].weaknesses}</li>
       <li class="list-group-item" > Apariciones : ${pokemon[pokeOne].spawn_chance}</li>
+      <li class="list-group-item" > Peso : ${pokemon[pokeOne].weight}</li>
       <li class="list-group-item" > Caramelos : ${pokemon[pokeOne].candy_count}  ${pokemon[pokeOne].candy}</li>
       </ul>
       </div> `
@@ -34,6 +35,7 @@
       <li class="list-group-item" > Tipo : ${pokemon[pokeOne].type}</li>
       <li class="list-group-item"  > Debilidades : ${pokemon[pokeOne].weaknesses}</li>
       <li class="list-group-item" > Apariciones : ${pokemon[pokeOne].spawn_chance}</li>
+      <li class="list-group-item" > Peso : ${pokemon[pokeOne].weight}</li>
       <li class="list-group-item" > Caramelos : no necesita mas ${pokemon[pokeOne].candy} </li>
       </ul>
       </div> `
@@ -56,6 +58,8 @@
    eachPoke(pokeData.sort(sortArrsToObjects));
  }
 
+  const pokeEstadistico = document.getElementById("Porcentaje")
+  
 
 
 

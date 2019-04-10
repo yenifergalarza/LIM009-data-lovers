@@ -4088,4 +4088,4 @@
   }]
 };
 
-
+window.POKEMON = POKEMON;

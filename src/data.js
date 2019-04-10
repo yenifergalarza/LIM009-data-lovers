@@ -1,6 +1,5 @@
 /* Manejo de data */
 
-
 function sortArrsToObjects(a, b) {
   a = a.id;
   b = b.id;  
