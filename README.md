@@ -269,7 +269,7 @@ como toda la configuración de dependencias:
 │   ├── main.js
 │   └── style.css
 └── test
-    └── data.spec.js
+    └── data..js
 
 8 directories, 17 files
 ```
