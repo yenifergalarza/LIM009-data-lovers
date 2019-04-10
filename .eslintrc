@@ -7,6 +7,10 @@
   },
   "extends": "eslint:recommended",
   "globals": {
-    "example": false
+    "POKEMON":false,
+    "filtrarPokemon":false,
+    "sortArrsToObjects":false,
+    "calculusStats":false,
+    "pokeData":false
   }
 }
