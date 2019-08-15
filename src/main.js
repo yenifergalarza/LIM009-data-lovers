@@ -13,12 +13,12 @@
       <p class="card-title whiteText" >${pokemon[pokeOne].name}</p>
       </div>  
       <ul class="list-group list-group-flush">
-      <li class="list-group-item" > N° de PokeDex : ${pokemon[pokeOne].num}</li>
-      <li class="list-group-item" > Tipo : ${pokemon[pokeOne].type}</li>
-      <li class="list-group-item"  > Debilidades : ${pokemon[pokeOne].weaknesses}</li>
-      <li class="list-group-item" > Apariciones : ${pokemon[pokeOne].spawn_chance}</li>
-      <li class="list-group-item" > Peso : ${pokemon[pokeOne].weight}</li>
-      <li class="list-group-item" > Caramelos : ${pokemon[pokeOne].candy_count}  ${pokemon[pokeOne].candy}</li>
+      <li class="list-group-item" >N°  PokeDex: ${pokemon[pokeOne].num}</li>
+      <li class="list-group-item" > Type : ${pokemon[pokeOne].type}</li>
+      <li class="list-group-item"  > Weakness : ${pokemon[pokeOne].weaknesses}</li>
+      <li class="list-group-item" >Spawn Chance : ${pokemon[pokeOne].spawn_chance}</li>
+      <li class="list-group-item" > Weight  : ${pokemon[pokeOne].weight}</li>
+      <li class="list-group-item" > Candy : ${pokemon[pokeOne].candy_count}  ${pokemon[pokeOne].candy}</li>
       </ul>
       </div> `
      } else {
@@ -29,12 +29,12 @@
       <p class="card-title whiteText">${pokemon[pokeOne].name}</p>
       </div>
       <ul class="list-group list-group-flush">
-      <li class="list-group-item" > N° de PokeDex : ${pokemon[pokeOne].num}</li>
-      <li class="list-group-item" > Tipo : ${pokemon[pokeOne].type}</li>
-      <li class="list-group-item"  > Debilidades : ${pokemon[pokeOne].weaknesses}</li>
-      <li class="list-group-item" > Apariciones : ${pokemon[pokeOne].spawn_chance}</li>
-      <li class="list-group-item" > Peso : ${pokemon[pokeOne].weight}</li>
-      <li class="list-group-item" > Caramelos : no necesita mas ${pokemon[pokeOne].candy} </li>
+      <li class="list-group-item" > N°  PokeDex : ${pokemon[pokeOne].num}</li>
+      <li class="list-group-item" > Type : ${pokemon[pokeOne].type}</li>
+      <li class="list-group-item"  > Weakness : ${pokemon[pokeOne].weaknesses}</li>
+      <li class="list-group-item" > Spawn Chance : ${pokemon[pokeOne].spawn_chance}</li>
+      <li class="list-group-item" > Weight : ${pokemon[pokeOne].weight}</li>
+      <li class="list-group-item" > Candy : no necesita mas ${pokemon[pokeOne].candy} </li>
       </ul>
       </div> `
      }

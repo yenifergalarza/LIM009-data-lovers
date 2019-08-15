@@ -594,7 +594,8 @@ h4 {
         }
         .textAgroup{
             position: absolute;
-            font-size: 3.8rem;
+            font-size: 4.8rem;
+            padding-left: 8%;
             /* font-weight: 600; */
         }
         
