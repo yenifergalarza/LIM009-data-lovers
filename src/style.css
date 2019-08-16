@@ -11,6 +11,16 @@ body {
   color: white; 
 }
 
+.seleccionarTip{
+  background: linear-gradient(to left,#00acee 4%,#0087e6 33%,#00d1f6 93%);
+  padding: 6px 16px 6px 27px;
+  margin-left: 10px;
+  border: 2px #fff solid;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+}
+
 /* posicion responsive menu*/
 nav {
 
@@ -25,9 +35,7 @@ nav {
 
 }
 
-nav ,.card,.list-group-item{
-    background: #F1FFEF;
-}
+nav ,.card,.list-group-item{}
 
 /*esti.ls pa el cuerpo*/
 h1 {    padding-top: .2em;
@@ -38,7 +46,9 @@ h1 {    padding-top: .2em;
   margin-left: 35%;
   }
   header,.card-title{
-    background: linear-gradient(85.05deg, #24CCAA 32.37%, #A8DD9C 89.36%, #A8DD9C 99.67%);
+  background: linear-gradient(to left,#00acee 4%,#0087e6 33%,#00d1f6 93%);
+  border: 2px #fff solid;
+  margin-bottom: 1px !important;
   }  
 
 header {
@@ -56,16 +66,15 @@ header {
 article {
   padding: 0.5em 0;
   line-height: 1.5;
+  background: #65aedd;
 }
 
 footer {
-  margin-top: 2em;
+  background: #305dae;
   border-top: solid rgba(0, 0, 0, .1);
   text-align: right;
-  padding-top: 1em;
-  font-style: 0.8em;
+  padding: 1em;
 }
-
 footer a {
 
 
@@ -87,13 +96,12 @@ footer a:hover {
 }
 
 .card-title{
- 
-height: 100%;
-padding: 0;
-font-weight: bold;
-font-size: 25px;
-text-align: center;
-padding-top: .5em;
+ height: 100%;
+ padding: 0;
+ font-weight: bold;
+ font-size: 25px;
+ text-align: center;
+ padding-top: .5em;
 }
 /* .row{
   width: 90% !important;
@@ -120,8 +128,8 @@ padding-top: .5em;
 }
 
 .menu li {
-  box-shadow: 3px 0#24CCAA inset;
-  border-left: 3px solid #24CCAA inset;
+  box-shadow: 3px 0#0c55a7b5 inset;
+  border-left: 3px solid #008ae6;
   margin-bottom: 5px;
   padding-left: 1.5em;
   --webkit-transition: width 2s;
@@ -130,7 +138,8 @@ padding-top: .5em;
 }
 
 .menu li:hover {
-  box-shadow: 15em 0 #24CCAA inset;
+  box-shadow: 15em 0 #20a5dc70 inset;
+  
 }
 
 
@@ -138,6 +147,8 @@ padding-top: .5em;
 nav.mostrar {
   left: 0;
   cursor: pointer;
+  background: linear-gradient(to bottom,#efefef,rgb(255, 255, 255) 100%);
+  height: 100vh;
 }
 
 #mostrar-nav {
@@ -152,7 +163,7 @@ nav.mostrar {
 }
 
 .bg-info {
-  background-color: #3fcfa7!important;
+  background-color: #315cae!important;
 }
 
 .containerBar{
@@ -161,19 +172,20 @@ padding-top: 5%;
 padding-bottom: 5%;
 border-bottom: solid rgba(0, 0, 0, .1);
 }
-
-.greyAndCenter,h3{
+.greyAndCenter, h3 {
   font-weight: 600;
-  color:#24CCAA;
+  color: #ffffff;
   text-align: center;
-text-decoration: none;
+  text-decoration: none;
 }
 
 @media (min-width: 300px) {
  
  nav{    padding-top: 2em;}
  .menu li {
-    font-size: 13px;}
+    font-size: 16px;
+    background: linear-gradient(to bottom,#e8e8e8,rgba(255,255,255,.45) 100%);
+    }
   h1 {
     padding-top: 0.5em;
     margin-left: 23%;
@@ -278,3 +290,100 @@ h2 {
 
 
 
+  .hexagon {
+    background-image: linear-gradient(to bottom,#20a5dc70, #0c55a7b5, #0c55a7b5 ,#0c55a7b5 ), url(../src/images/hexagonos.png);
+    background-repeat: repeat;
+    object-fit: contain;
+    background-position: -116px 0;
+}
+.body{
+  background-image: linear-gradient(to bottom,#315cae, #315cae, #375bae ,#65aedd ), url(../src/images/hexagonos.png);
+  background-repeat: repeat;
+  height: -webkit-fill-available;
+}
+
+.Electric{
+  background: #e6cc10;
+  padding: 5px;
+  border-radius: 15px;
+}
+
+.Water {
+  background: #1097e6;
+  padding: 5px;
+  border-radius: 15px;
+  color: white;
+}
+
+.Fire{
+  background: #e61010;
+  padding: 5px;
+  border-radius: 15px;
+  color: white;
+}
+
+.Grass{
+  background: #7fbb0a;
+  padding: 5px;
+  border-radius: 15px;
+  color: white;
+}
+
+.Bug{
+  background: #2e442f;
+  padding: 5px;
+  border-radius: 15px;
+  color: white;
+}
+.Ice
+  {
+    background: #43a3ad;
+    padding: 5px;
+    border-radius: 15px;
+    color: white;
+}
+
+.Ground{
+  background: #856404;
+  padding: 5px;
+  border-radius: 15px;
+  color: white;
+}
+
+.Rock {
+  background: #11100e;
+  padding: 5px;
+  border-radius: 15px;
+  color: white;
+}
+
+.Poison{
+    background: #970341;
+    padding: 5px;
+    border-radius: 15px;
+    color: white;
+}
+
+.Psychic{
+  background: #ee05c7;
+  padding: 5px;
+  border-radius: 15px;
+  color: white;
+}
+.Normal{
+  background: #6d6b6c;
+  padding: 5px;
+  border-radius: 15px;
+  color: white;
+}
+.Fighting{  background: #1f0101;
+  padding: 5px;
+  border-radius: 15px;
+  color: white;}
+  .Dragon{
+    background: #58daa3;
+    padding: 5px;
+    border-radius: 15px;
+    color: white;
+  }
+  .

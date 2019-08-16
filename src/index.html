@@ -12,7 +12,7 @@
   <link rel="shortcut icon" href="../src/images/iconPoke.png" type="image/x-icon">
 </head>
 
-<body>
+<body  class="hexagon body">
 
   <div id="root">
     <div id="mostrar-nav"></div>
@@ -26,23 +26,23 @@
         <li><a href="#">Search</a></li>
         <li><a href="home.html">Home</a></li>
         <li><a href="#">Types </a>
-          <select class="seleccionarTip" id="tipoDePokemon">
-            <option value="Selected">Select Type</option>
-            <option value="Water">Water</option>
-            <option value="Bug">Bug</option>
-            <option value="Dragon">Dragon</option>
-            <option value="Electric">Electric</option>
-            <option value="Ghost">Ghost</option>
-            <option value="Fire">Fire</option>
-            <option value="Ice">Ice</option>
-            <option value="Grass">Grass</option>
-            <option value="Fighting">Fighting</option>
-            <option value="Normal">Normal</option>
-            <option value="Psychic">Psychic</option>
-            <option value="Rock">Rock</option>
-            <option value="Ground">Ground</option>
-            <option value="Poison">Poison</option>
-            <option value="Flying">Flying</option>
+          <select class="seleccionarTip" id="tipoDePokemon" class="dropdown-menu">
+            <option value="Selected" class="dropdown-item">Select Type</option>
+            <option value="Water" class="dropdown-item">Water</option>
+            <option value="Bug" class="dropdown-item">Bug</option>
+            <option value="Dragon" class="dropdown-item">Dragon</option>
+            <option value="Electric"class="dropdown-item" >Electric</option>
+            <option value="Ghost" class="dropdown-item" >Ghost</option>
+            <option value="Fire" class="dropdown-item">Fire</option>
+            <option value="Ice"class="dropdown-item" >Ice</option>
+            <option value="Grass" class="dropdown-item">Grass</option>
+            <option value="Fighting" class="dropdown-item" >Fighting</option>
+            <option value="Normal"class="dropdown-item" >Normal</option>
+            <option value="Psychic"class="dropdown-item" >Psychic</option>
+            <option value="Rock"class="dropdown-item" >Rock</option>
+            <option value="Ground"class="dropdown-item" >Ground</option>
+            <option value="Poison"class="dropdown-item" >Poison</option>
+            <option value="Flying"class="dropdown-item" >Flying</option>
           </select></li>
         <li>
 
@@ -60,12 +60,12 @@
 
     <article>
       <div class="containerBar">
-        <h2 id="titlePoke">Find all Pokemons by type or N° pokedex Here !</h2>
+        <h2 id="titlePoke" class=" whiteText">Find all Pokemons by type or N° pokedex Here !</h2>
         <div id="pokeBar" class="progress"> </div>
       </div>
     </article>
 
-    <div id="rootCard" class="row container-fluid"> </div>
+    <div id="rootCard" class="row container-fluid hexagon"> </div>
 
     <script src="https://cdn.cai.tools.sap/webchat/webchat.js"
     channelId="4aae2715-56ce-4af4-ac0f-b14572505a61"

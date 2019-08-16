@@ -14,11 +14,11 @@
       </div>  
       <ul class="list-group list-group-flush">
       <li class="list-group-item" >N°  PokeDex: ${pokemon[pokeOne].num}</li>
-      <li class="list-group-item" > Type : ${pokemon[pokeOne].type}</li>
+      <li class="list-group-item" > Type : <span class="${pokemon[pokeOne].type}">${pokemon[pokeOne].type}</span></li>
       <li class="list-group-item"  > Weakness : ${pokemon[pokeOne].weaknesses}</li>
       <li class="list-group-item" >Spawn Chance : ${pokemon[pokeOne].spawn_chance}</li>
       <li class="list-group-item" > Weight  : ${pokemon[pokeOne].weight}</li>
-      <li class="list-group-item" > Candy : ${pokemon[pokeOne].candy_count}  ${pokemon[pokeOne].candy}</li>
+      <li class="list-group-item" > Candy :  necesita ${pokemon[pokeOne].candy_count}  ${pokemon[pokeOne].candy}</li>
       </ul>
       </div> `
      } else {
@@ -30,7 +30,7 @@
       </div>
       <ul class="list-group list-group-flush">
       <li class="list-group-item" > N°  PokeDex : ${pokemon[pokeOne].num}</li>
-      <li class="list-group-item" > Type : ${pokemon[pokeOne].type}</li>
+      <li class="list-group-item" > Type : <span class="${pokemon[pokeOne].type}">${pokemon[pokeOne].type}</span></li>
       <li class="list-group-item"  > Weakness : ${pokemon[pokeOne].weaknesses}</li>
       <li class="list-group-item" > Spawn Chance : ${pokemon[pokeOne].spawn_chance}</li>
       <li class="list-group-item" > Weight : ${pokemon[pokeOne].weight}</li>
@@ -66,8 +66,14 @@
    const titlePoke = document.getElementById("titlePoke");
    pokeBar.innerHTML = ``;
    titlePoke.innerHTML = ``;
-   titlePoke.innerHTML = `Porcentaje de pokemones de tipo ${ pokemonFiltrado.value} : ${pokeStat}%`;
+   titlePoke.innerHTML = `
+   percentage of Pokemons by type ${ pokemonFiltrado.value} : ${pokeStat}%`;
    pokeBar.innerHTML += ` 
    <div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: ${pokeStat}%" aria-valuenow="${pokeStat}" aria-valuemin="0" aria-valuemax="100"></div>`;
    eachPoke(filtrando);
  });
+
+
+ window.onload = function() {
+  upPoke();
+};
