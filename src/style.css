@@ -472,16 +472,15 @@ h3 {
 
 /* THE FRONT FACE OF THE CARD, WHICH SHOWS BY DEFAULT */
 .thefront {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 93%;
-  border-radius: 10px;
-  backface-visibility: hidden;
-  overflow: hidden;
-  background: #f8f9fa61;
- 
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 93%;
+	border-radius: 10px;
+	backface-visibility: hidden;
+	overflow: hidden;
+	background: #f8f9faa8;
 }
 
 /* THE BACK FACE OF THE CARD, WHICH SHOWS ON MOUSEOVER */
