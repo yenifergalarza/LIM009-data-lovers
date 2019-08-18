@@ -1,13 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:200');
 body {
   font-family: 'Raleway', sans-serif;
-  /*! background: linear-gradient(to bottom,#65aedd82 ,#305dae 100%); */
-      background-repeat: repeat;
-      background-image: linear-gradient(rgb(101, 174, 221), rgb(48, 93, 174) 100%);
+  background: linear-gradient(to bottom,#65aedd82 ,#305dae 100%);
   background-repeat: repeat;
-  background-image: linear-gradient(rgba(101, 174, 221, 0.32), rgba(48, 93, 174, 0.28) 100%);
+  background-image: linear-gradient(rgb(101, 174, 221), rgb(48, 93, 174) 100%);
+  background-repeat: repeat;
+  background-image: linear-gradient(rgba(101, 174, 221, 0.84), rgba(48, 93, 174, 0.28) 100%);
   text-align: center;
-
 }
 .whiteText {
   color: white;
@@ -336,13 +335,13 @@ h3 {
 
 
 .hexagon {
-
   justify-content: space-around;
   background-image: linear-gradient(to bottom, #65aedd78 0%,#0c55a7b5 100%), url(../src/images/hexagonos.png);
   background-repeat: repeat;
   background-position-x: 17%;
   background-position-y: 26%;
-
+  width: 100vw;
+  margin: 0 !important;
 }
 
 .Electric {
